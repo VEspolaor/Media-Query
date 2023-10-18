@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    body{
+        background-image: linear-gradient(to bottom, #8c0ee0de,#09d4cd);
+    }
+    section#Login{
+        width: 80vw;
+    }
+    section#Login > div#imagem{
+        float: right;
+        width: 40%;
+        height: 100%;
+    }
+    section#Login > div#form{
+        float: left;
+        width: 60%;
+    }
+    form > input[type=submit]{
+        display: block;
+        font-size: 1em;
+        width: 45%;
+        height: 50px;
+        margin:auto;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: #04bbb5;
+        color: white;
+        cursor: pointer;
+    }
+    form > a.botao{
+        text-align: center;
+        text-decoration: none;
+        display:block;
+        margin: auto;
+        margin-top: 40px;
+        padding: 3px;
+        width: 140px;
+        height: 30px;
+    }
+    form > a.botao:hover{
+        background-color: #b7d4ee5d; 
+    }
+}
+@media screen and (min-width:992px){
+    body{
+        background-image: linear-gradient(to bottom, #8c0ee0de,#09d4cd);
+    }
+    section#Login{
+        width: 80vw;
+    }
+    section#Login > div#imagem{
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    section#Login > div#form{
+        float: right;
+        width: 60%;
+    }
+    div#form > h1{
+        font-size: 2em;
+    }
+    div#form > p{
+        font-size: 1.2em;
+    }
+    form > input[type=submit]{
+        display: block;
+        font-size: 1em;
+        width: 45%;
+        height: 50px;
+        margin: auto;
+        margin-top: 10px;
+        border-radius: 10px;
+        background-color: #04bbb5;
+        color: white;
+        cursor: pointer;
+    }
+    form > a.botao{
+        text-align: center;
+        text-decoration: none;
+        display:block;
+        margin: auto;
+        margin-top: 40px;
+        padding: 3px;
+        width: 140px;
+        height: 30px;
+    }
+    form > a.botao:hover{
+        background-color: #b7d4ee5d; 
+    }
+}
